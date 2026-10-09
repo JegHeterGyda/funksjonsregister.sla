@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: funksjonsregister.sla
+  description: Funksjonsregister for kartverket.dev i SLA klyngen
+spec:
+  targets:
+    - ./groups/sla-test.yaml
+    - ./kartverket/kartverket.yaml
+    - ./kartverket/eksempel/eksempel.yaml

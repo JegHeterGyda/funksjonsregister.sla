@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sla-test
+  title: SLA test
+  description: Testgruppe for funksjonsregisteret i SLA klyngen
+spec:
+  type: team
+  children: []
