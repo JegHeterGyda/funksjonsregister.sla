@@ -4,5 +4,5 @@ metadata:
   name: eksempel
   title: Eksempel
 spec:
-  owner: group:default/sla-test
+  owner: group:default/fleks-grafanaslo
   parentFunction: function:default/kartverket
