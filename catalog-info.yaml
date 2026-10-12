@@ -7,4 +7,4 @@ spec:
   targets:
     - ./groups/fleks-grafanaslo.yaml
     - ./kartverket/kartverket.yaml
-    - ./kartverket/eksempel/eksempel.yaml
+    - ./kartverket/tjenesteovervaking/tjenesteovervaking.yaml
