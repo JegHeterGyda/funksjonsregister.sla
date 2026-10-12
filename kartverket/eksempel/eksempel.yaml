@@ -1,8 +1,10 @@
 apiVersion: kartverket.dev/v1alpha1
 kind: Function
 metadata:
-  name: eksempel
-  title: Eksempel
+  name: tjenesteovervaking
+  title: Tjenesteovervåking
 spec:
   owner: group:default/fleks-grafanaslo
   parentFunction: function:default/kartverket
+  dependsOnSystems:
+    - system:default/grafana-slo
