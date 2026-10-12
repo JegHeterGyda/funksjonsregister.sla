@@ -4,4 +4,4 @@ metadata:
   name: kartverket
   title: Kartverket
 spec:
-  owner: group:default/sla-test
+  owner: group:default/fleks-grafanaslo
