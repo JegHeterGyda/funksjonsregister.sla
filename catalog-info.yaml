@@ -5,6 +5,5 @@ metadata:
   description: Funksjonsregister for kartverket.dev i SLA klyngen
 spec:
   targets:
-    - ./groups/fleks-grafanaslo.yaml
     - ./kartverket/kartverket.yaml
     - ./kartverket/tjenesteovervaking/tjenesteovervaking.yaml
